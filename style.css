@@ -24,7 +24,7 @@ header h2{
     color:rgb(112, 224, 155)
 }
 
-footer{
+.site-footer{
     background-image: linear-gradient(#cec8ff,white);
     padding: 20px 0;
 }
