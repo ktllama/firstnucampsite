@@ -25,7 +25,8 @@
                         <h1>NuCamp</h1>
                         <h2>a better way to camp</h2>
                     </div>
-                    <div class="col-xs-12 col-md-4 col-xl-2 mt-4">
+ <!--button to reserve campsite-->
+                    <div class="col-md-4 col-xl-2 mt-4">
                         <a href="#reserveForm" class="btn btn-info btn-lg text-nowrap">Reserve Campsite</a>
                     </div>
                 </div>
@@ -109,9 +110,10 @@
                             <form id="reserveForm">
                                 <div class="row form-group">
                                     <label class="col-sm-6 col-form-label" for="numCampers">Number of Campers</label>
+<!--number select drop menu-->
                                     <div class="col-sm-6">
                                         <select name="numCampers" id="numCampers" class="form-control">
-                                            <option value="">Select...</option>
+                                            <option selected>Select...</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
@@ -121,14 +123,14 @@
                                         </select>
                                     </div>
                                 </div>
-
+<!--date-->
                                 <div class="row form-group">
                                     <label class="col-sm-6 col-form-label" for="date">Date</label>
                                     <div class="col-sm-6">
                                         <input type="date" class="form-control" name="date" id="date" placeholder="date">
                                     </div>
                                 </div>
-
+<!--submit button-->
                                 <div class="row form-group">
                                     <div class="col">
                                         <button type="submit" class="btn btn-primary">Search</button>
