@@ -13,6 +13,7 @@ body {
 
 h1, h2, h3 {
   font-family: "Lobster", cursive;
+  color: white;
 }
 
 h2 {
@@ -34,7 +35,7 @@ header h2 {
   padding: 30px;
   background-image: -webkit-gradient(linear, left top, right top, from(#5637dd), color-stop(#3046C5), to(#60106b));
   background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
-  color: white;
+  color: whi;
 }
 
 .row-content {
@@ -72,5 +73,15 @@ header h2 {
 a, a:hover, .collapsed {
   color: inherit;
   text-decoration: none;
+}
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white;
+}
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */

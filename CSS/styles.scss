@@ -4,6 +4,7 @@ $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #17A2B8;
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
@@ -24,6 +25,7 @@ body {
 
 h1, h2, h3{
     font-family: $header-font;
+    color:white;
 }
 
 h2{
@@ -80,4 +82,20 @@ header h2{
 a, a:hover, .collapsed{
     color: inherit;
     text-decoration: none;
+}
+
+#reserveModal{
+    .modal-header{
+        background-color: $color-teal;
+        color:white;
+
+    }
+}
+
+#loginModal{
+    .modal-header{
+        background-color: $color-mid;
+        color:white;
+        
+    }
 }
